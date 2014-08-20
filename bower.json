@@ -1,0 +1,18 @@
+{
+    "name": "jsQ",
+    "version": "0.0.1",
+    "authors": [ "dangduy2910@gmail.com" ],
+    "license": "MIT",
+    "main": "src/*.js",
+    "devDependencies": { },
+    "dependencies": { },
+    "private": false,
+    "keywords": [
+        "js-promises",
+        "promises",
+        "defer",
+        "jsQ",
+        "q"
+    ],
+    "ignore": [ "!*" ]
+}
