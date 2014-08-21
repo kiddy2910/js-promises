@@ -83,7 +83,7 @@
      * @param errorCallback Fn has an argument is reason why to reject
      * @returns {Promise}
      */
-    Promise.prototype.catch = function (errorCallback) {
+    Promise.prototype['catch'] = function (errorCallback) {
         return this.fail(errorCallback);
     };
 
@@ -112,7 +112,7 @@
      *
      * @param callback Fn has no argument
      */
-    Promise.prototype.finally = function (callback) {
+    Promise.prototype['finally'] = function (callback) {
         this.fin(callback);
     };
 
